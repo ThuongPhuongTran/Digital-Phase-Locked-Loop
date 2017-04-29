@@ -13,3 +13,4 @@ The project implements PLL on ARM STM32F405RG. The inputs are quadrature sine/co
 
 Firstly, we consider the structure of PLL including: Phase Detector (PD), Loop Filter (LF) and Voltage Control Oscillator (VCO). The PD detects the phase error, LF related to noise reduction as well as time acquisition time, and VCO is a integral.
 
+The inputs of PLL include sine and cosine signals. Assume the output is \theta
