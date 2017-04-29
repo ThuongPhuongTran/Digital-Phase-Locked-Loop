@@ -16,8 +16,11 @@ Firstly, we consider the structure of PLL including: Phase Detector (PD), Loop F
 The detail in:
 
 3. Project structure
+
+The files of project are organized
   
-  1. ADC DMA for reading ADC
-  2. Timer Configuration for running PLL at every sampling time
-  3. PLL 
-  4. UART DMA to transmit the result to computer
+  - ADC DMA for reading ADC
+  - Timer Configuration for running PLL at every sampling time
+  - PLL 
+  - UART DMA to transmit the result to computer
+  - Main
