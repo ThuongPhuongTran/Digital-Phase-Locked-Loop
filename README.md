@@ -17,10 +17,10 @@ Output phase from quadrature sine/cos signals - Relevant for magnetic encoder or
 
 3. Project structure
 
-  The files of project are organized
+  The main files of project are organized
   
-  - ADC DMA for reading ADC
-  - Timer Configuration for running PLL at every sampling time
-  - PLL 
-  - UART DMA to transmit the result to computer
-  - Main
+  - ADC_DMA.c/ADC_DMA.h - for reading ADC
+  - TimerSample.c       - Configuration for running PLL at every sampling time
+  - AADPLL.c            - contain Digital PLL implementation 
+  - uart.c              - RS232 DMA to transmit the result to computer
+  - main.c
